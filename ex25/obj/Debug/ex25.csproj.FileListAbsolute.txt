@@ -1,0 +1,9 @@
+D:\Escola\C#\Exercicio de manipulação de string\ex25\bin\Debug\ex25.exe.config
+D:\Escola\C#\Exercicio de manipulação de string\ex25\bin\Debug\ex25.exe
+D:\Escola\C#\Exercicio de manipulação de string\ex25\bin\Debug\ex25.pdb
+D:\Escola\C#\Exercicio de manipulação de string\ex25\obj\Debug\ex25.Form1.resources
+D:\Escola\C#\Exercicio de manipulação de string\ex25\obj\Debug\ex25.Properties.Resources.resources
+D:\Escola\C#\Exercicio de manipulação de string\ex25\obj\Debug\ex25.csproj.GenerateResource.cache
+D:\Escola\C#\Exercicio de manipulação de string\ex25\obj\Debug\ex25.csproj.CoreCompileInputs.cache
+D:\Escola\C#\Exercicio de manipulação de string\ex25\obj\Debug\ex25.exe
+D:\Escola\C#\Exercicio de manipulação de string\ex25\obj\Debug\ex25.pdb

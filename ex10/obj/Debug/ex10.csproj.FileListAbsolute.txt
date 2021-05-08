@@ -1,0 +1,10 @@
+D:\Escola\C#\Exercicio de manipulação de string\ex10\bin\Debug\ex10.exe.config
+D:\Escola\C#\Exercicio de manipulação de string\ex10\bin\Debug\ex10.exe
+D:\Escola\C#\Exercicio de manipulação de string\ex10\bin\Debug\ex10.pdb
+D:\Escola\C#\Exercicio de manipulação de string\ex10\obj\Debug\ex10.csprojAssemblyReference.cache
+D:\Escola\C#\Exercicio de manipulação de string\ex10\obj\Debug\ex10.Form1.resources
+D:\Escola\C#\Exercicio de manipulação de string\ex10\obj\Debug\ex10.Properties.Resources.resources
+D:\Escola\C#\Exercicio de manipulação de string\ex10\obj\Debug\ex10.csproj.GenerateResource.cache
+D:\Escola\C#\Exercicio de manipulação de string\ex10\obj\Debug\ex10.csproj.CoreCompileInputs.cache
+D:\Escola\C#\Exercicio de manipulação de string\ex10\obj\Debug\ex10.exe
+D:\Escola\C#\Exercicio de manipulação de string\ex10\obj\Debug\ex10.pdb
