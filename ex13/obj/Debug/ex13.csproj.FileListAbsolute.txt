@@ -1,0 +1,20 @@
+C:\Users\josia\source\repos\ex13\bin\Debug\ex13.exe.config
+C:\Users\josia\source\repos\ex13\bin\Debug\ex13.exe
+C:\Users\josia\source\repos\ex13\bin\Debug\ex13.pdb
+C:\Users\josia\source\repos\ex13\obj\Debug\ex13.csprojAssemblyReference.cache
+C:\Users\josia\source\repos\ex13\obj\Debug\ex13.Form1.resources
+C:\Users\josia\source\repos\ex13\obj\Debug\ex13.Properties.Resources.resources
+C:\Users\josia\source\repos\ex13\obj\Debug\ex13.csproj.GenerateResource.cache
+C:\Users\josia\source\repos\ex13\obj\Debug\ex13.csproj.CoreCompileInputs.cache
+C:\Users\josia\source\repos\ex13\obj\Debug\ex13.exe
+C:\Users\josia\source\repos\ex13\obj\Debug\ex13.pdb
+D:\Escola\C#\Exercicio de manipulação de string\ex13\bin\Debug\ex13.exe.config
+D:\Escola\C#\Exercicio de manipulação de string\ex13\bin\Debug\ex13.exe
+D:\Escola\C#\Exercicio de manipulação de string\ex13\bin\Debug\ex13.pdb
+D:\Escola\C#\Exercicio de manipulação de string\ex13\obj\Debug\ex13.csprojAssemblyReference.cache
+D:\Escola\C#\Exercicio de manipulação de string\ex13\obj\Debug\ex13.Form1.resources
+D:\Escola\C#\Exercicio de manipulação de string\ex13\obj\Debug\ex13.Properties.Resources.resources
+D:\Escola\C#\Exercicio de manipulação de string\ex13\obj\Debug\ex13.csproj.GenerateResource.cache
+D:\Escola\C#\Exercicio de manipulação de string\ex13\obj\Debug\ex13.csproj.CoreCompileInputs.cache
+D:\Escola\C#\Exercicio de manipulação de string\ex13\obj\Debug\ex13.exe
+D:\Escola\C#\Exercicio de manipulação de string\ex13\obj\Debug\ex13.pdb
