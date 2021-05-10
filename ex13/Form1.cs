@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ex13
@@ -25,19 +21,26 @@ namespace ex13
             List<int> Cont = new List<int>();
             string texto = txtEntrada.Text;
             char[] caracter = texto.ToArray();
-            int Count=0;
+            int Count=1;
             foreach (var item in caracter)
             {
                 if(texto.Where(x=> x.Equals(item)).Count() > 1)
                 {
                     listChar.Add(item.ToString());
+                    //Count = texto.Where(x => x.Equals(item)).Count();
+                    listRepit.Add(Count.ToString());
                 }
-                Count = texto.Where(x => x.Equals(item)).Count();
-                listRepit.Add(Count.ToString());
+                if(texto.Where(x => x.Equals(item)).Equals(item) 
+                    && texto.Where(x => x.Equals(item)).Count() >= 2)
+                {
+                    Count = texto.Where(x => x.Equals(item)).Count();
+                    listRepit.Add(Count.ToString());
+                }
             }
             var union = listChar.Union(listChar);
-            ltbResult.DataSource ="O "+union.ToList()+"Repetiu :" + listRepit;
-            cbResult.DataSource = union.ToList();
+            ltbResult.DataSource = union.ToList();
+
+            ltbRepit.DataSource = listRepit;
         }
     }
 }

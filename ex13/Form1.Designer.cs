@@ -34,7 +34,8 @@ namespace ex13
             this.lbResult = new System.Windows.Forms.Label();
             this.btnClick = new System.Windows.Forms.Button();
             this.ltbResult = new System.Windows.Forms.ListBox();
-            this.cbResult = new System.Windows.Forms.ComboBox();
+            this.ltbRepit = new System.Windows.Forms.ListBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -80,20 +81,30 @@ namespace ex13
             this.ltbResult.Size = new System.Drawing.Size(120, 95);
             this.ltbResult.TabIndex = 4;
             // 
-            // cbResult
+            // ltbRepit
             // 
-            this.cbResult.FormattingEnabled = true;
-            this.cbResult.Location = new System.Drawing.Point(153, 155);
-            this.cbResult.Name = "cbResult";
-            this.cbResult.Size = new System.Drawing.Size(121, 21);
-            this.cbResult.TabIndex = 5;
+            this.ltbRepit.FormattingEnabled = true;
+            this.ltbRepit.Location = new System.Drawing.Point(138, 155);
+            this.ltbRepit.Name = "ltbRepit";
+            this.ltbRepit.Size = new System.Drawing.Size(120, 95);
+            this.ltbRepit.TabIndex = 5;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(135, 139);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 13);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Vezes Repetidas";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(344, 345);
-            this.Controls.Add(this.cbResult);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.ltbRepit);
             this.Controls.Add(this.ltbResult);
             this.Controls.Add(this.btnClick);
             this.Controls.Add(this.lbResult);
@@ -113,7 +124,8 @@ namespace ex13
         private System.Windows.Forms.Label lbResult;
         private System.Windows.Forms.Button btnClick;
         private System.Windows.Forms.ListBox ltbResult;
-        private System.Windows.Forms.ComboBox cbResult;
+        private System.Windows.Forms.ListBox ltbRepit;
+        private System.Windows.Forms.Label label2;
     }
 }
 
