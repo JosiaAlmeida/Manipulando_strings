@@ -1,0 +1,10 @@
+C:\Users\josia\source\repos\ex12\bin\Debug\ex12.exe.config
+C:\Users\josia\source\repos\ex12\bin\Debug\ex12.exe
+C:\Users\josia\source\repos\ex12\bin\Debug\ex12.pdb
+C:\Users\josia\source\repos\ex12\obj\Debug\ex12.csprojAssemblyReference.cache
+C:\Users\josia\source\repos\ex12\obj\Debug\ex12.Form1.resources
+C:\Users\josia\source\repos\ex12\obj\Debug\ex12.Properties.Resources.resources
+C:\Users\josia\source\repos\ex12\obj\Debug\ex12.csproj.GenerateResource.cache
+C:\Users\josia\source\repos\ex12\obj\Debug\ex12.csproj.CoreCompileInputs.cache
+C:\Users\josia\source\repos\ex12\obj\Debug\ex12.exe
+C:\Users\josia\source\repos\ex12\obj\Debug\ex12.pdb
