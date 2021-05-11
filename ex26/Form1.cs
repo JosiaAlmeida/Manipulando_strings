@@ -20,6 +20,14 @@ namespace ex26
         private void button1_Click(object sender, EventArgs e)
         {
             List<string> ListNameSimplifc = new List<string>();
+            string[] text = txtNome.Text.Split(' ');
+            foreach (var item in text)
+            {
+                ListNameSimplifc.Add(item.Substring(0, 1));
+            }
+            string join = String.Join(",", ListNameSimplifc)
+                .Replace(",", " ");
+            txtSaida.Text = join;
         }
     }
 }
