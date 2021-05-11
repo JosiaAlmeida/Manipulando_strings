@@ -72,9 +72,9 @@ namespace ex18
                                 valor_por_extenso += " DE";
 
                         if (Convert.ToInt64(strValor.Substring(0, 15)) == 1)
-                            valor_por_extenso += " REAL";
+                            valor_por_extenso += " ";
                         else if (Convert.ToInt64(strValor.Substring(0, 15)) > 1)
-                            valor_por_extenso += " REAIS";
+                            valor_por_extenso += " ";
 
                         if (Convert.ToInt32(strValor.Substring(16, 2)) > 0 && valor_por_extenso != string.Empty)
                             valor_por_extenso += " E ";
@@ -82,9 +82,9 @@ namespace ex18
 
                     if (i == 15)
                         if (Convert.ToInt32(strValor.Substring(16, 2)) == 1)
-                            valor_por_extenso += " CENTAVO";
+                            valor_por_extenso += " ";
                         else if (Convert.ToInt32(strValor.Substring(16, 2)) > 1)
-                            valor_por_extenso += " CENTAVOS";
+                            valor_por_extenso += " ";
                 }
                 return valor_por_extenso;
             }
