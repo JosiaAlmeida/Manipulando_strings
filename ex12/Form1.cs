@@ -16,5 +16,14 @@ namespace ex12
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string[] split = txtFrase.Text.Split(' ');
+            Array.Sort(split);
+            string join = String.Join(" ", split);
+            txtResult.Multiline = true;
+            txtResult.Text = join;
+        }
     }
 }

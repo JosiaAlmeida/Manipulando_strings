@@ -29,13 +29,67 @@ namespace ex12
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.txtFrase = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtResult = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // txtFrase
+            // 
+            this.txtFrase.Location = new System.Drawing.Point(114, 13);
+            this.txtFrase.Name = "txtFrase";
+            this.txtFrase.Size = new System.Drawing.Size(221, 20);
+            this.txtFrase.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(33, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Frase";
+            // 
+            // txtResult
+            // 
+            this.txtResult.Location = new System.Drawing.Point(61, 139);
+            this.txtResult.Name = "txtResult";
+            this.txtResult.Size = new System.Drawing.Size(221, 20);
+            this.txtResult.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(86, 323);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(151, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Organizar Numeros";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(347, 358);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtResult);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtFrase);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox txtFrase;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtResult;
+        private System.Windows.Forms.Button button1;
     }
 }
 
