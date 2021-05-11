@@ -32,7 +32,7 @@ namespace ex16
             this.label1 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.btn = new System.Windows.Forms.Button();
-            this.lbResult = new System.Windows.Forms.ListBox();
+            this.lvResult = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // label1
@@ -63,20 +63,21 @@ namespace ex16
             this.btn.UseVisualStyleBackColor = true;
             this.btn.Click += new System.EventHandler(this.btn_Click);
             // 
-            // lbResult
+            // lvResult
             // 
-            this.lbResult.FormattingEnabled = true;
-            this.lbResult.Location = new System.Drawing.Point(12, 97);
-            this.lbResult.Name = "lbResult";
-            this.lbResult.Size = new System.Drawing.Size(421, 147);
-            this.lbResult.TabIndex = 4;
+            this.lvResult.HideSelection = false;
+            this.lvResult.Location = new System.Drawing.Point(13, 152);
+            this.lvResult.Name = "lvResult";
+            this.lvResult.Size = new System.Drawing.Size(420, 97);
+            this.lvResult.TabIndex = 4;
+            this.lvResult.UseCompatibleStateImageBehavior = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 302);
-            this.Controls.Add(this.lbResult);
+            this.Controls.Add(this.lvResult);
             this.Controls.Add(this.btn);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label1);
@@ -91,7 +92,7 @@ namespace ex16
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Button btn;
-        private System.Windows.Forms.ListBox lbResult;
+        private System.Windows.Forms.ListView lvResult;
     }
 }
 

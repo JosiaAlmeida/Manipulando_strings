@@ -23,12 +23,16 @@ namespace ex16
             string text = txtNome.Text;
             char[] caracter = text.ToArray();
             int cont = caracter.Length;
-            lbResult.MultiColumn = true;
+            lvResult.MultiSelect = true;
 
             //lbResult.BeginUpdate();
-            string join = String.Join(",", caracter);
+           /* string join = String.Join(",", caracter);
             string joinCaracter = join.Replace(",", " ");
-            lbResult.Items.Add(joinCaracter);
+            lvResult.Items.Add(joinCaracter);*/
+            for (int i = 0; i < cont; i++)
+            {
+                lvResult.Items.Add(caracter[i].ToString());
+            }
         }
     }
 }
