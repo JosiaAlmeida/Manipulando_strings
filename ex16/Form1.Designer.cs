@@ -55,7 +55,7 @@ namespace ex16
             // 
             // btn
             // 
-            this.btn.Location = new System.Drawing.Point(180, 267);
+            this.btn.Location = new System.Drawing.Point(12, 267);
             this.btn.Name = "btn";
             this.btn.Size = new System.Drawing.Size(75, 23);
             this.btn.TabIndex = 3;

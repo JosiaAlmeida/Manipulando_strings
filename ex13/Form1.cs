@@ -26,20 +26,12 @@ namespace ex13
             {
                 if(texto.Where(x=> x.Equals(item)).Count() > 1)
                 {
-                    listChar.Add(item.ToString());
-                    //Count = texto.Where(x => x.Equals(item)).Count();
-                    listRepit.Add(Count.ToString());
-                }
-                if(texto.Where(x => x.Equals(item)).Equals(item) 
-                    && texto.Where(x => x.Equals(item)).Count() >= 2)
-                {
-                    Count = texto.Where(x => x.Equals(item)).Count();
-                    listRepit.Add(Count.ToString());
+                    string text = item + " Repetiu " + texto.Where(x => x.Equals(item)).Count();
+                    listChar.Add(text);
                 }
             }
             var union = listChar.Union(listChar);
             ltbResult.DataSource = union.ToList();
-
             ltbRepit.DataSource = listRepit;
         }
     }
