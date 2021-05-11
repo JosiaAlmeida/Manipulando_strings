@@ -29,19 +29,11 @@ namespace ex16
         /// </summary>
         private void InitializeComponent()
         {
-            this.RtbResult = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.btn = new System.Windows.Forms.Button();
+            this.lbResult = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
-            // 
-            // RtbResult
-            // 
-            this.RtbResult.Location = new System.Drawing.Point(12, 143);
-            this.RtbResult.Name = "RtbResult";
-            this.RtbResult.Size = new System.Drawing.Size(421, 96);
-            this.RtbResult.TabIndex = 0;
-            this.RtbResult.Text = "";
             // 
             // label1
             // 
@@ -71,15 +63,23 @@ namespace ex16
             this.btn.UseVisualStyleBackColor = true;
             this.btn.Click += new System.EventHandler(this.btn_Click);
             // 
+            // lbResult
+            // 
+            this.lbResult.FormattingEnabled = true;
+            this.lbResult.Location = new System.Drawing.Point(12, 97);
+            this.lbResult.Name = "lbResult";
+            this.lbResult.Size = new System.Drawing.Size(421, 147);
+            this.lbResult.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 302);
+            this.Controls.Add(this.lbResult);
             this.Controls.Add(this.btn);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.RtbResult);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -88,11 +88,10 @@ namespace ex16
         }
 
         #endregion
-
-        private System.Windows.Forms.RichTextBox RtbResult;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Button btn;
+        private System.Windows.Forms.ListBox lbResult;
     }
 }
 
