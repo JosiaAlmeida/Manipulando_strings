@@ -1,0 +1,10 @@
+D:\Escola\C#\Exercicio de manipulação de string\ex23\bin\Debug\ex23.exe.config
+D:\Escola\C#\Exercicio de manipulação de string\ex23\bin\Debug\ex23.exe
+D:\Escola\C#\Exercicio de manipulação de string\ex23\bin\Debug\ex23.pdb
+D:\Escola\C#\Exercicio de manipulação de string\ex23\obj\Debug\ex23.csprojAssemblyReference.cache
+D:\Escola\C#\Exercicio de manipulação de string\ex23\obj\Debug\ex23.Form1.resources
+D:\Escola\C#\Exercicio de manipulação de string\ex23\obj\Debug\ex23.Properties.Resources.resources
+D:\Escola\C#\Exercicio de manipulação de string\ex23\obj\Debug\ex23.csproj.GenerateResource.cache
+D:\Escola\C#\Exercicio de manipulação de string\ex23\obj\Debug\ex23.csproj.CoreCompileInputs.cache
+D:\Escola\C#\Exercicio de manipulação de string\ex23\obj\Debug\ex23.exe
+D:\Escola\C#\Exercicio de manipulação de string\ex23\obj\Debug\ex23.pdb
